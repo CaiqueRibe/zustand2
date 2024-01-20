@@ -26,6 +26,7 @@ export default function Column({ state }) {
             setDrop(false)
             e.preventDefault()
          }}
+         // eslint-disable-next-line no-unused-vars
          onDrop={(e) => {
             // console.log(draggedTask, "column = " + state)
             setDrop(false)
